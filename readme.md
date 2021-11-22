@@ -7,16 +7,9 @@ It just seems to work (very quickly) for the few cases Ive tried.
 
 
 ## Requirements:
+
 python3 [tested on v3.9.7]
 pandas [tested on v1.2.5]
-
-## Installation:
-install python3
-
-install pandas, for example using pip:
-```
-python3 -m pip install pandas
-```
 
 ## Running 
 
@@ -30,12 +23,8 @@ Run
 ```
 python3 main.py riders.csv drivers.csv
 ```
-The arguments are the filepaths.
 
-The allocations will be printed to the console. See `example_output.txt` for an example of the expected output.
-
-Format for `riders.csv` and `drivers.csv`:
-Both files have 3 columns:  `<name>, <seats>, <location>`
+The allocations will be printed to the console. See `example_output.txt` for an example of the expected output. Any riders that couldnt be allocated will also be listed.
 
 For quick help:
 ```
