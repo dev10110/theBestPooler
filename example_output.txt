@@ -1,0 +1,87 @@
+
+# starting allocations
+
+
+# successfully completed allocations
+
+#### ALLOCATIONS ####
+
+Driver: zimingg [Loc: initiation, Cap: 1, Avail: 0] 
+  - markusi [initiation, Req: 1]
+
+Driver: ikesmith [Loc: initiation, Cap: 1, Avail: 0] 
+  - jpienkny [initiation, Req: 1]
+
+Driver: kylelady [Loc: initiation, Cap: 7, Avail: 5] 
+  - allli [initiation, Req: 1]
+  - jgozon [other, Req: 1]
+
+Driver: alantran [Loc: initiation, Cap: 5, Avail: 3] 
+  - aoverbec [initiation, Req: 1]
+  - jessmer [other, Req: 1]
+
+Driver: kubczakn [Loc: initiation, Cap: 5, Avail: 3] 
+  - aphuchar [initiation, Req: 1]
+  - xiupy [other, Req: 1]
+
+Driver: marnson [Loc: initiation, Cap: 5, Avail: 3] 
+  - asclkose [initiation, Req: 1]
+  - tayjayfo [other, Req: 1]
+
+Driver: ansinghl [Loc: initiation, Cap: 4, Avail: 2] 
+  - ashwinsp [initiation, Req: 1]
+  - rreddi [other, Req: 1]
+
+Driver: arjunsun [Loc: initiation, Cap: 4, Avail: 2] 
+  - awruan [initiation, Req: 1]
+  - zikunw [initiation, Req: 1]
+
+Driver: eradakov [Loc: initiation, Cap: 4, Avail: 2] 
+  - cbangera [initiation, Req: 1]
+  - yunseokc [initiation, Req: 1]
+
+Driver: millerjv [Loc: initiation, Cap: 4, Avail: 2] 
+  - devansh [initiation, Req: 1]
+  - yaswanth [initiation, Req: 1]
+
+Driver: shiuanhs [Loc: initiation, Cap: 4, Avail: 2] 
+  - dfalvo [initiation, Req: 1]
+  - wengl [initiation, Req: 1]
+
+Driver: aascioti [Loc: initiation, Cap: 3, Avail: 1] 
+  - dionli [initiation, Req: 1]
+  - strydhkg [initiation, Req: 1]
+
+Driver: zwgold [Loc: initiation, Cap: 3, Avail: 1] 
+  - drbought [initiation, Req: 1]
+  - simonli [initiation, Req: 1]
+
+Driver: dfmcgee [Loc: initiation, Cap: 2, Avail: 0] 
+  - dstep [initiation, Req: 1]
+  - nghawali [initiation, Req: 1]
+
+Driver: joyolee [Loc: initiation, Cap: 2, Avail: 0] 
+  - garliari [initiation, Req: 1]
+  - nggw [initiation, Req: 1]
+
+Driver: seanaa [Loc: initiation, Cap: 2, Avail: 0] 
+  - hgdanawe [initiation, Req: 1]
+  - mkukucka [initiation, Req: 1]
+
+Driver: pitv [Loc: other, Cap: 3, Avail: 0] 
+  - damartel [other, Req: 1]
+  - dschlau [other, Req: 1]
+  - liuying [other, Req: 1]
+
+Driver: kritiyer [Loc: other, Cap: 4, Avail: 0] 
+  - carinaj [other, Req: 1]
+  - ericlian [other, Req: 1]
+  - johnzryu [other, Req: 1]
+  - ranadeep [other, Req: 1]
+
+
+#### UNALLOCATED RIDERS ####
+
+[none]
+
+done.
