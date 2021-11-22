@@ -11,26 +11,28 @@ python3 [tested on v3.9.7]
 pandas [tested on v1.2.5]
 
 ## Installation:
-install python3 on your system as you see fit. 
+install python3
+
 install pandas, for example using pip:
 ```
 python3 -m pip install pandas
 ```
 
-Put the following files into a single folder:
-- main.py
-- theBestPooler.py
-
 ## Running 
 
-1. In the folder containing `main.py` and `theBestPooler.py` add the files `riders.csv` and `drivers.csv`
-2. Run
+Put the following files into a single folder:
+- `main.py`
+- `theBestPooler.py`
+- `riders.csv`
+- `drivers.csv`
+
+Run
 ```
 python3 main.py riders.csv drivers.csv
 ```
-The allocations will be printed to the console.
+The arguments are the filepaths.
 
-Example data files are included in this repo, so this command should just work. An example of the output is in the file `example_output.txt`
+The allocations will be printed to the console. See `example_output.txt` for an example of the expected output.
 
 Format for `riders.csv` and `drivers.csv`:
 Both files have 3 columns:  `<name>, <seats>, <location>`
@@ -40,20 +42,28 @@ For quick help:
 python3 main.py -h
 ```
 
-## Details
+Optional arguments:
+- desired verbosity: `-v <integer>`. 0 for no printing, 1 for printing the summary and the allocations. 2 and higher for debug printing. 
+- by default, I assume the csv files contain headers. If they do not contain headers, pass `-n` as an additional argument.
+Example:
+```
+python3 main.py riders.csv drivers.csv -v 2 -n
+```
+will assume the csv files have no headers, and the verbosity=level 2.
+
+
+## CSV File Format Details:
+
+Each file contains (exactly) 3 columns:
+`<name>, <seats>, <location>`
 
 `<name>` is just any string. preferably unique, but not necessary. Each row is treated as a different person.
 
-For riders, `<seats>` is the number of required seats. Usually this will be 1
-For drivers, `<seats>` is the number of available seats EXCLUDING the driver, ie if the number is 2, this driver can pickup 2 passengers
+For riders, `<seats>` is the number of required seats. Usually this will be 1.
+For drivers, `<seats>` is the number of available seats EXCLUDING the driver, i.e. if the number is 2, this driver can pickup 2 passengers
 
 The `<location>` specifies where the driver/riders start/want to be picked up. 
 These are assumed to be categorical, so make sure that there are no spelling errors. Insensitive to capitilization: 'north' and 'North' are treated as the same location.
-
-## Options
-- specify the desired verbosity using `-v <integer>`. 0 for no printing, 1 for printing the summary and the allocations. 2 and higher for debug printing. 
-- by default, I assume the csv files contain headers. If they do not contain headers, pass `-n` as an additional argument.
-
 
 ## Algorithm Description
 
